@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  form {
+    margin: 20px;
+  }
+  
+  input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  div {
+    margin: 20px;
+  }
+  
+  h3 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  button {
+    margin-right: 10px;
+  }
+  .form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .form-container label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="number"],
+  .form-container textarea {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .form-container textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .form-container button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #45a049;
+  }
+  
+  .form-container input[type="file"] {
+    margin-bottom: 12px;
+  }
+  
+  .form-container img {
+    max-width: 100%; /* Ensure image does not exceed its container width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure image is displayed as a block element */
+    margin-bottom: 12px; /* Add some space below the image */
+    border-radius: 4px; /* Optional: Add border radius for images */
+  }
+  
+  .product-item {
+    display: inline-block; /* Ensures each product item is displayed inline with proper spacing */
+    width: 250px; /* Set a fixed width for each product item */
+    margin-right: 20px; /* Adds spacing between each product item */
+    margin-bottom: 20px; /* Adds spacing below each product item */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-item img {
+    width: 100%; /* Ensures the image fills the container */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 8px;
+    object-fit: cover; /* Ensures the image covers the entire container */
+    display: block; /* Displays the image as a block element */
+    margin-bottom: 10px; /* Adds spacing below the image */
+  }
+  
+  .product-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .product-item p {
+    margin: 5px 0;
+  }
+  
+  .product-item button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .product-item button:hover {
+    background-color: #45a049;
+  }
